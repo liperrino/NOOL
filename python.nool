@@ -1,0 +1,27 @@
+x = 12;
+y = 15;
+
+pprint(x,y)
+
+def foo(x = 12,y = 14):
+    return x+y
+
+pprint(foo())
+pprint(foo(x,y))
+
+class Person(Object):
+	firstname = ""
+	lastname  = ""
+
+	def initialize(firstname,lastname):
+		self.firstname = firstname
+		self.lastname  = lastnane
+
+	def name():
+		return firstname+lastname
+
+x = Person("Perrin","Litet li Mbeleg")
+
+pprint(x.name(),x.id(),x.class)
+
+
